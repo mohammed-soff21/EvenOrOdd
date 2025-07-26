@@ -21,7 +21,6 @@
                     Print($"The number {number} is even");
 
                 // to read user choice to continue in the app again and validate the user input
-                if (!IsChar("y to continue in the application else enter n", out cUserChoice))
                 if (!IsChar("y to continue in the application else enter n", out cUserChoice))
                     return;
                 // convert the character to lower 
